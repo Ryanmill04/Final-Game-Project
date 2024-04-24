@@ -1,0 +1,78 @@
+Final Game sudo code
+Ryan MIller
+
+Import pygame, random
+import simpleGE
+
+Class BSUcard
+I set image as "cardinal" for my character
+I set the size
+Set the position
+Implement Move speed
+I implemet in air which is true so it will work
+
+Def process
+Set inAir nad add force to it
+Set characters movement
+set air time for platforms
+
+Class platform
+Set positon of platform
+Selected color of platforms
+Set where the platforms would be
+
+def update
+Move the platforms with mouse
+select the postion
+*BUG* Platforms collide with each other and become stuck
+
+Class coin
+set imm=age of coin
+set size of coin
+set to where it can reset
+
+def bounds
+set where bounds is located
+
+def reset 
+set where the coins will reset
+
+Class IntroScene
+set image
+set intructions = to simpleGE multilabel i used
+set instruction text lines
+set size of instructions
+set intruction center
+
+def process
+once clicked screen with mouse the game play will start
+
+Class Game
+set image as BSU tower
+use coin sound effect
+set caption
+set cardinal sound effect
+set platform placements
+Make sure score and time are set up
+set all the sprites i used
+
+def process
+if coin colides with character it adds a point
+set time label on how much times left
+
+Class Timelabel
+set text to time
+center text
+size text
+
+CLass coinscore
+set text for score
+center text
+
+def main
+Intro is equal to intoscene
+then intro will start
+if into response is play then game will start
+
+
+
